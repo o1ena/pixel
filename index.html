@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Udacity: Pixel Art Maker</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+  </script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<h1>Pixel Art Maker</h1>
+  <h4>pick a color</h4>
+  <div class='color-container'>
+    <input type="color" id="colorPicker" title='Pick a color'>
+  </div> 
+  <div class='controls-container'>
+    <div class='size-controls'>
+      <input type="number" id="input_height" class='size' name="height" min="1" placeholder='Grid Height'>
+      </br>
+    <input type="number" id="input_width" class='size' name="width" min="1" placeholder='Grid Width'> 
+  </div>
+  <div class='grid-creation-controls'>
+    <i class="fa fa-th" id='sub' aria-hidden="true" title='Create a grid'></i>
+    <i class="fa fa-times" aria-hidden="true" id='reset' title='Remove a grid'></i>
+  </div>  
+  </div>
+  <p id='error'>enter grid height and width</p>
+  <table class='container'></table>
+<footer>
+    <p class=made-by><i class="fa fa-copyright" aria-hidden="true"></i> made by <a href="https://codepen.io/o1ena/full/gmXWrN/" target="_blank">o1ena</a>
+    </p>
+</footer>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

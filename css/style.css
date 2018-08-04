@@ -1,0 +1,152 @@
+  @import url(https://fonts.googleapis.com/css?family=Graduate);
+
+body {
+  background-image: url('http://blog.visme.co/wp-content/uploads/2017/07/50-Beautiful-and-Minimalist-Presentation-Backgrounds-08.jpg');
+}
+
+input {
+  background: transparent;
+}
+  * {
+    font-family: Graduate;
+    text-transform: uppercase;
+  }
+
+  .grids {
+    margin: 1px;
+    background: #c0c0c0;
+  }
+
+  tr, td {
+    width: 50px;
+    height: 50px;
+  } 
+
+  .container {
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .size {
+    width: 200px;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    text-align: center;
+  }
+
+  .size:focus, .size:hover {
+    outline: none;
+    border-bottom: 2px solid #645f5f;
+    border-top: 2px solid #645f5f;
+    cursor: default;
+  }
+
+  input:focus::-webkit-input-placeholder {
+      opacity: 0;
+  }
+
+  .size-controls {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 250px;
+   }
+
+  #sub {
+  font-size: 40px;
+   color: grey;
+    margin: 0px;
+  }
+
+  #reset {
+  font-size: 30px;
+   color: grey;
+   margin: 0px;
+  }
+
+  #sub:hover, #reset:hover {
+    font-weight: bold;
+  }
+
+  #sub:active, #reset:active {
+   color:#605353;
+  }
+
+  .controls-container {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  .color-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  #colorPicker {
+   border: none;
+   background: none;
+   height: 30px;
+   width: 100px;
+   margin-left: -45px;
+   cursor: pointer;
+  }
+
+  #colorPicker:focus {
+    outline: none;
+  }
+
+  h4 {
+    text-align: center;
+    margin-left: -46px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    color: grey;
+    cursor: default;
+  }
+
+  h1 {
+    text-align: center;
+    cursor: default;
+  }
+
+  #error {
+    text-align: center;
+    font-size: 10px;
+    color: red;
+    margin-left: -45px;
+  }
+
+  .grid-creation-controls {
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.made-by {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -45px;
+}
+.made-by a {
+  text-decoration: none;
+  color:#006992;
+}
+.made-by a:hover {
+  font-weight: bold;
+}
+.made-by:hover {
+  cursor: default;
+}
+
